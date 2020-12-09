@@ -1,0 +1,51 @@
+def fun1(param1, param2):
+	'''
+	test comment line 1
+	test comment line 2
+	test comment line 3
+	test comment line 4
+	'''
+	i = 2
+	b = i + 3
+	return b
+
+
+def fun2(param3):
+	"""
+	egg 1
+	egg 2
+	"""
+	pass
+
+
+def fun3 ():
+	'''I am very hungry'''
+	return None
+
+
+def fun4(param4, param5, param6, param7, param8):
+	#cat
+	#dog
+	#cow
+	#horse
+	#pig
+	#mouse
+
+	#This line should not be a part of the comments
+	
+	return param 5
+
+def fun5 (
+	param8, 
+	param9, 
+	param10, 
+	param11
+	):
+	
+
+	"""
+    hello this is a a test line
+						k
+	"""
+	
+	return None

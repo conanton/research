@@ -24,6 +24,7 @@ same folder as the Function_dict.ipynb file.
 The cells below the definition of the 3 functions used in the script are example usages of the program. The final cell titled "#Test Cases" lists the test cases
 used and concerns with each one.
 
+* Many of the test cases used came from the pytorch/caffe2/python repository *
 
 Challenges:
 - Code currently only scans for a select few types of commenting, so oddly-styled programs may not be parsed correctly.

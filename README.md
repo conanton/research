@@ -27,7 +27,4 @@ used and concerns with each one.
 * Many of the test cases used came from the pytorch/caffe2/python repository *
 
 Challenges:
-- Code currently only scans for a select few types of commenting, so oddly-styled programs may not be parsed correctly.
-- If 'def ' is mentioned in the file outside of the context of defining a function, the code will still read it as a function and add it to the dictionary
-- Comments on multiple lines being appended together are currently kind of messy, but overall works. Many spaces may appear or instances of non-alphanumeric
-  characters in their .txt format may show.
+- Code currently only scans for a select few types of commenting, so oddly-styled programs (including comments above the header of a function) may not be parsed correctly.
